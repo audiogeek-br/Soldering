@@ -1,6 +1,6 @@
-update=24/01/2014 9:39:59 p.m.
+update=1/29/2014 12:37:20 AM
 version=1
-last_client=kicad
+last_client=pcbnew
 [cvpcb]
 version=1
 NetIExt=net
@@ -45,9 +45,11 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
+[general]
+version=1
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=soldering.net
 UseCmpFile=1
 PadDrill=0.600000000000
 PadDrillOvalY=0.600000000000
@@ -65,7 +67,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
-LibDir=
+LibDir=modules
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -82,5 +84,4 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
+LibName17=omega_ohm_ce_class

@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:soldering-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 jan 2014"
+Date "29 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -609,17 +610,6 @@ F 3 "~" H 8450 1700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C22
-U 1 1 52E254A8
-P 8450 1900
-F 0 "C22" H 8450 2000 40  0000 L CNN
-F 1 "C" H 8456 1815 40  0000 L CNN
-F 2 "~" H 8488 1750 30  0000 C CNN
-F 3 "~" H 8450 1900 60  0000 C CNN
-	1    8450 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C23
 U 1 1 52E254AE
 P 8450 2100
@@ -694,39 +684,6 @@ F 1 "C" H 8906 1615 40  0000 L CNN
 F 2 "~" H 8938 1550 30  0000 C CNN
 F 3 "~" H 8900 1700 60  0000 C CNN
 	1    8900 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C30
-U 1 1 52E254EA
-P 8900 1900
-F 0 "C30" H 8900 2000 40  0000 L CNN
-F 1 "C" H 8906 1815 40  0000 L CNN
-F 2 "~" H 8938 1750 30  0000 C CNN
-F 3 "~" H 8900 1900 60  0000 C CNN
-	1    8900 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C31
-U 1 1 52E254F0
-P 8900 2100
-F 0 "C31" H 8900 2200 40  0000 L CNN
-F 1 "C" H 8906 2015 40  0000 L CNN
-F 2 "~" H 8938 1950 30  0000 C CNN
-F 3 "~" H 8900 2100 60  0000 C CNN
-	1    8900 2100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L C C32
-U 1 1 52E254F6
-P 8900 2300
-F 0 "C32" H 8900 2400 40  0000 L CNN
-F 1 "C" H 8906 2215 40  0000 L CNN
-F 2 "~" H 8938 2150 30  0000 C CNN
-F 3 "~" H 8900 2300 60  0000 C CNN
-	1    8900 2300
 	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

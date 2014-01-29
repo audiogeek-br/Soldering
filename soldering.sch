@@ -29,13 +29,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:soldering-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "24 jan 2014"
+Date "29 jan 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -269,12 +270,12 @@ $EndComp
 $Comp
 L C C7
 U 1 1 52E23D70
-P 7550 2100
-F 0 "C7" H 7550 2200 40  0000 L CNN
-F 1 "C" H 7556 2015 40  0000 L CNN
-F 2 "~" H 7588 1950 30  0000 C CNN
-F 3 "~" H 7550 2100 60  0000 C CNN
-	1    7550 2100
+P 3100 6900
+F 0 "C7" H 3100 7000 40  0000 L CNN
+F 1 "C" H 3106 6815 40  0000 L CNN
+F 2 "~" H 3138 6750 30  0000 C CNN
+F 3 "~" H 3100 6900 60  0000 C CNN
+	1    3100 6900
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -609,17 +610,6 @@ F 3 "~" H 8450 1700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C22
-U 1 1 52E254A8
-P 8450 1900
-F 0 "C22" H 8450 2000 40  0000 L CNN
-F 1 "C" H 8456 1815 40  0000 L CNN
-F 2 "~" H 8488 1750 30  0000 C CNN
-F 3 "~" H 8450 1900 60  0000 C CNN
-	1    8450 1900
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C23
 U 1 1 52E254AE
 P 8450 2100
@@ -696,15 +686,18 @@ F 3 "~" H 8900 1700 60  0000 C CNN
 	1    8900 1700
 	0    -1   -1   0   
 $EndComp
-$Comp
-L C C30
-U 1 1 52E254EA
-P 8900 1900
-F 0 "C30" H 8900 2000 40  0000 L CNN
-F 1 "C" H 8906 1815 40  0000 L CNN
-F 2 "~" H 8938 1750 30  0000 C CNN
-F 3 "~" H 8900 1900 60  0000 C CNN
-	1    8900 1900
-	0    -1   -1   0   
-$EndComp
+Wire Wire Line
+	2700 5550 2850 5550
+Wire Wire Line
+	2850 5550 2850 6750
+Wire Wire Line
+	2700 5650 2800 5650
+Wire Wire Line
+	2800 5650 2800 6900
+Wire Wire Line
+	2850 6750 3300 6750
+Wire Wire Line
+	3300 6750 3300 6900
+Wire Wire Line
+	2800 6900 2900 6900
 $EndSCHEMATC
